@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index:100 ;
+}
+
+nav{
+    display: flex;
+margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a { 
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #3f3f3f;
+}
+
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 60vh !important;
+    background: url(img/back3.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: rgb(82, 82, 187);
+    color: white;
+    text-decoration: none;
+    background: rgb(82, 82, 187);
+    border-radius: 10%;
+}
+
+.btn:hover{
+    background: none;
+    transition: 0.5;
+}
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px ;
+} 
+
+.content{ 
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-dos{
+    padding: 30px;
+    background: #1f1d1d;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: rgb(15, 15, 15);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, .5) ;
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: rgb(82, 82, 187);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color:rgb(82, 82, 187);
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.content-about{
+    background: #171717;
+}
+
+.content-price{
+    background: url(img/back4.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.content-contact{
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    padding: 1rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-footer {
+    width: 100%;
+  }
+  
+  .iconos-sociales {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconos-sociales a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(82, 82, 187);
+    margin: 10px;
+    border-radius: 100px;
+  }
+  .iconos-sociales a i {
+    font-size: 30px;
+    color: white;
+    opacity: 0.9;
+  }
+  
+  .iconos-sociales a:hover {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .iconos-sociales a:hover i {
+    color: whitesmoke;
+    transition: 0.5;
+  }
+  
+  .final-footer {
+    background-color: black;
+    text-align: center;
+  }
+  .final-footer p {
+    color: rgb(71, 69, 69);
+    margin-top: 10px;
+  }
+  
+  .diseñador {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+@media (max-width: 768px) {
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .content-dos{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;}
+}
+
+header{height: 60vh !important;}
